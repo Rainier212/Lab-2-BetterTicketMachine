@@ -123,4 +123,9 @@ public class TicketMachine
         total = 0;
         return moneyTaken;
     }
+    
+    public void HalfPrice()
+    {
+        discountedPrice = price / 2;
+    }
 }
