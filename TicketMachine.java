@@ -23,7 +23,7 @@ public class TicketMachine
      */
     public TicketMachine(int cost)
     {
-        price = cost;
+        int price = cost;
         balance = 0;
         total = 0;
     }
