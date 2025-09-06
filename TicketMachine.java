@@ -23,7 +23,7 @@ public class TicketMachine
      */
     public TicketMachine(int cost)
     {
-        int price = cost;
+        price = cost;
         balance = 0;
         total = 0;
     }
@@ -115,5 +115,12 @@ public class TicketMachine
         else {
             System.out.println("Just right");
         }
+    }
+    
+    public int emptyMachine()
+    {
+        int moneyTaken = total;
+        total = 0;
+        return moneyTaken;
     }
 }
